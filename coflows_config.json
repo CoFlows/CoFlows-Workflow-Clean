@@ -12,7 +12,7 @@
             "Email": "",
             "Staging": false
         },
-        "OAuth": {
+        "_OAuth": {
             "AzureAdB2C": {
                 "Instance": "https://{{...}}.b2clogin.com/tfp/",
                 "Domain": "{{...}}.onmicrosoft.com",
