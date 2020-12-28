@@ -1,9 +1,31 @@
 {
-  "ID": "",
+  "ID": "9a7adf48-183f-4d44-8ab2-c0afd1610c71",
   "Name": "Workflow-Clean",
   "Base": [],
-  "Agents": [],
-  "Queries": [],
+  "Agents": [
+    {
+      "Name": "pyagent.py",
+      "Content": "Agents/pyagent.py",
+      "Exe": "pkg"
+    }
+  ],
+  "Queries": [
+    {
+      "Name": "pyapi.py",
+      "Content": "Queries/pyapi.py",
+      "ID": "pyapi.py"
+    },
+    {
+      "Name": "dash.py",
+      "Content": "Queries/dash.py",
+      "ID": "dash.py"
+    },
+    {
+      "Name": "d2.py",
+      "Content": "Queries/d2.py",
+      "ID": "d2.py"
+    }
+  ],
   "Permissions": [
     {
       "ID": "root",
@@ -15,10 +37,19 @@
     }
   ],
   "NuGets": [],
-  "Pips": [],
+  "Pips": [
+    {
+      "ID": "pandas"
+    }
+  ],
   "Jars": [],
   "Bins": [],
-  "Files": [],
+  "Files": [
+    {
+      "Name": "my.azureauth",
+      "Content": "Files/my.azureauth"
+    }
+  ],
   "ReadMe": "README.md",
   "Publisher": null,
   "PublishTimestamp": "0001-01-01T00:00:00",
